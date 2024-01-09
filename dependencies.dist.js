@@ -30,9 +30,9 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
 ));
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
-// node_modules/.pnpm/negotiator@0.6.3/node_modules/negotiator/lib/charset.js
+// node_modules/.pnpm/node_modules/negotiator/lib/charset.js
 var require_charset = __commonJS({
-  "node_modules/.pnpm/negotiator@0.6.3/node_modules/negotiator/lib/charset.js"(exports2, module2) {
+  "node_modules/.pnpm/node_modules/negotiator/lib/charset.js"(exports2, module2) {
     "use strict";
     module2.exports = preferredCharsets;
     module2.exports.preferredCharsets = preferredCharsets;
@@ -118,9 +118,9 @@ var require_charset = __commonJS({
   }
 });
 
-// node_modules/.pnpm/negotiator@0.6.3/node_modules/negotiator/lib/encoding.js
+// node_modules/.pnpm/node_modules/negotiator/lib/encoding.js
 var require_encoding = __commonJS({
-  "node_modules/.pnpm/negotiator@0.6.3/node_modules/negotiator/lib/encoding.js"(exports2, module2) {
+  "node_modules/.pnpm/node_modules/negotiator/lib/encoding.js"(exports2, module2) {
     "use strict";
     module2.exports = preferredEncodings;
     module2.exports.preferredEncodings = preferredEncodings;
@@ -217,9 +217,9 @@ var require_encoding = __commonJS({
   }
 });
 
-// node_modules/.pnpm/negotiator@0.6.3/node_modules/negotiator/lib/language.js
+// node_modules/.pnpm/node_modules/negotiator/lib/language.js
 var require_language = __commonJS({
-  "node_modules/.pnpm/negotiator@0.6.3/node_modules/negotiator/lib/language.js"(exports2, module2) {
+  "node_modules/.pnpm/node_modules/negotiator/lib/language.js"(exports2, module2) {
     "use strict";
     module2.exports = preferredLanguages;
     module2.exports.preferredLanguages = preferredLanguages;
@@ -316,9 +316,9 @@ var require_language = __commonJS({
   }
 });
 
-// node_modules/.pnpm/negotiator@0.6.3/node_modules/negotiator/lib/mediaType.js
+// node_modules/.pnpm/node_modules/negotiator/lib/mediaType.js
 var require_mediaType = __commonJS({
-  "node_modules/.pnpm/negotiator@0.6.3/node_modules/negotiator/lib/mediaType.js"(exports2, module2) {
+  "node_modules/.pnpm/node_modules/negotiator/lib/mediaType.js"(exports2, module2) {
     "use strict";
     module2.exports = preferredMediaTypes;
     module2.exports.preferredMediaTypes = preferredMediaTypes;
@@ -479,9 +479,9 @@ var require_mediaType = __commonJS({
   }
 });
 
-// node_modules/.pnpm/negotiator@0.6.3/node_modules/negotiator/index.js
+// node_modules/.pnpm/node_modules/negotiator/index.js
 var require_negotiator = __commonJS({
-  "node_modules/.pnpm/negotiator@0.6.3/node_modules/negotiator/index.js"(exports2, module2) {
+  "node_modules/.pnpm/node_modules/negotiator/index.js"(exports2, module2) {
     "use strict";
     var preferredCharsets = require_charset();
     var preferredEncodings = require_encoding();
@@ -534,9 +534,9 @@ var require_negotiator = __commonJS({
   }
 });
 
-// node_modules/.pnpm/mime-db@1.52.0/node_modules/mime-db/db.json
+// node_modules/.pnpm/node_modules/mime-db/db.json
 var require_db = __commonJS({
-  "node_modules/.pnpm/mime-db@1.52.0/node_modules/mime-db/db.json"(exports2, module2) {
+  "node_modules/.pnpm/node_modules/mime-db/db.json"(exports2, module2) {
     module2.exports = {
       "application/1d-interleaved-parityfec": {
         source: "iana"
@@ -9059,16 +9059,16 @@ var require_db = __commonJS({
   }
 });
 
-// node_modules/.pnpm/mime-db@1.52.0/node_modules/mime-db/index.js
+// node_modules/.pnpm/node_modules/mime-db/index.js
 var require_mime_db = __commonJS({
-  "node_modules/.pnpm/mime-db@1.52.0/node_modules/mime-db/index.js"(exports2, module2) {
+  "node_modules/.pnpm/node_modules/mime-db/index.js"(exports2, module2) {
     module2.exports = require_db();
   }
 });
 
-// node_modules/.pnpm/mime-types@2.1.35/node_modules/mime-types/index.js
+// node_modules/.pnpm/node_modules/mime-types/index.js
 var require_mime_types = __commonJS({
-  "node_modules/.pnpm/mime-types@2.1.35/node_modules/mime-types/index.js"(exports2) {
+  "node_modules/.pnpm/node_modules/mime-types/index.js"(exports2) {
     "use strict";
     var db = require_mime_db();
     var extname = require("path").extname;
@@ -9157,9 +9157,9 @@ var require_mime_types = __commonJS({
   }
 });
 
-// node_modules/.pnpm/accepts@1.3.8/node_modules/accepts/index.js
+// node_modules/.pnpm/socket.io@4.7.3/node_modules/accepts/index.js
 var require_accepts = __commonJS({
-  "node_modules/.pnpm/accepts@1.3.8/node_modules/accepts/index.js"(exports2, module2) {
+  "node_modules/.pnpm/socket.io@4.7.3/node_modules/accepts/index.js"(exports2, module2) {
     "use strict";
     var Negotiator = require_negotiator();
     var mime = require_mime_types();
@@ -9238,9 +9238,9 @@ var require_accepts = __commonJS({
   }
 });
 
-// node_modules/.pnpm/base64id@2.0.0/node_modules/base64id/lib/base64id.js
+// node_modules/.pnpm/socket.io@4.7.3/node_modules/base64id/lib/base64id.js
 var require_base64id = __commonJS({
-  "node_modules/.pnpm/base64id@2.0.0/node_modules/base64id/lib/base64id.js"(exports2, module2) {
+  "node_modules/.pnpm/socket.io@4.7.3/node_modules/base64id/lib/base64id.js"(exports2, module2) {
     var crypto = require("crypto");
     var Base64Id = function() {
     };
@@ -9300,9 +9300,9 @@ var require_base64id = __commonJS({
   }
 });
 
-// node_modules/.pnpm/engine.io-parser@5.2.1/node_modules/engine.io-parser/build/cjs/commons.js
+// node_modules/.pnpm/node_modules/engine.io-parser/build/cjs/commons.js
 var require_commons = __commonJS({
-  "node_modules/.pnpm/engine.io-parser@5.2.1/node_modules/engine.io-parser/build/cjs/commons.js"(exports2) {
+  "node_modules/.pnpm/node_modules/engine.io-parser/build/cjs/commons.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.ERROR_PACKET = exports2.PACKET_TYPES_REVERSE = exports2.PACKET_TYPES = void 0;
@@ -9325,9 +9325,9 @@ var require_commons = __commonJS({
   }
 });
 
-// node_modules/.pnpm/engine.io-parser@5.2.1/node_modules/engine.io-parser/build/cjs/encodePacket.js
+// node_modules/.pnpm/node_modules/engine.io-parser/build/cjs/encodePacket.js
 var require_encodePacket = __commonJS({
-  "node_modules/.pnpm/engine.io-parser@5.2.1/node_modules/engine.io-parser/build/cjs/encodePacket.js"(exports2) {
+  "node_modules/.pnpm/node_modules/engine.io-parser/build/cjs/encodePacket.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.encodePacketToBinary = exports2.encodePacket = void 0;
@@ -9364,9 +9364,9 @@ var require_encodePacket = __commonJS({
   }
 });
 
-// node_modules/.pnpm/engine.io-parser@5.2.1/node_modules/engine.io-parser/build/cjs/decodePacket.js
+// node_modules/.pnpm/node_modules/engine.io-parser/build/cjs/decodePacket.js
 var require_decodePacket = __commonJS({
-  "node_modules/.pnpm/engine.io-parser@5.2.1/node_modules/engine.io-parser/build/cjs/decodePacket.js"(exports2) {
+  "node_modules/.pnpm/node_modules/engine.io-parser/build/cjs/decodePacket.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.decodePacket = void 0;
@@ -9419,9 +9419,9 @@ var require_decodePacket = __commonJS({
   }
 });
 
-// node_modules/.pnpm/engine.io-parser@5.2.1/node_modules/engine.io-parser/build/cjs/index.js
+// node_modules/.pnpm/node_modules/engine.io-parser/build/cjs/index.js
 var require_cjs = __commonJS({
-  "node_modules/.pnpm/engine.io-parser@5.2.1/node_modules/engine.io-parser/build/cjs/index.js"(exports2) {
+  "node_modules/.pnpm/node_modules/engine.io-parser/build/cjs/index.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.decodePayload = exports2.decodePacket = exports2.encodePayload = exports2.encodePacket = exports2.protocol = exports2.createPacketDecoderStream = exports2.createPacketEncoderStream = void 0;
@@ -9581,9 +9581,9 @@ var require_cjs = __commonJS({
   }
 });
 
-// node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/parser-v3/utf8.js
+// node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/parser-v3/utf8.js
 var require_utf8 = __commonJS({
-  "node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/parser-v3/utf8.js"(exports2, module2) {
+  "node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/parser-v3/utf8.js"(exports2, module2) {
     var stringFromCharCode = String.fromCharCode;
     function ucs2decode(string) {
       var output = [];
@@ -9752,9 +9752,9 @@ var require_utf8 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/parser-v3/index.js
+// node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/parser-v3/index.js
 var require_parser_v3 = __commonJS({
-  "node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/parser-v3/index.js"(exports2) {
+  "node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/parser-v3/index.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.decodePayloadAsBinary = exports2.encodePayloadAsBinary = exports2.decodePayload = exports2.encodePayload = exports2.decodeBase64Packet = exports2.decodePacket = exports2.encodeBase64Packet = exports2.encodePacket = exports2.packets = exports2.protocol = void 0;
@@ -10041,9 +10041,9 @@ var require_parser_v3 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ms@2.1.2/node_modules/ms/index.js
+// node_modules/.pnpm/node_modules/ms/index.js
 var require_ms = __commonJS({
-  "node_modules/.pnpm/ms@2.1.2/node_modules/ms/index.js"(exports2, module2) {
+  "node_modules/.pnpm/node_modules/ms/index.js"(exports2, module2) {
     var s = 1e3;
     var m = s * 60;
     var h = m * 60;
@@ -10157,9 +10157,9 @@ var require_ms = __commonJS({
   }
 });
 
-// node_modules/.pnpm/debug@4.3.4/node_modules/debug/src/common.js
+// node_modules/.pnpm/socket.io@4.7.3/node_modules/debug/src/common.js
 var require_common = __commonJS({
-  "node_modules/.pnpm/debug@4.3.4/node_modules/debug/src/common.js"(exports2, module2) {
+  "node_modules/.pnpm/socket.io@4.7.3/node_modules/debug/src/common.js"(exports2, module2) {
     function setup(env) {
       createDebug.debug = createDebug;
       createDebug.default = createDebug;
@@ -10320,9 +10320,9 @@ var require_common = __commonJS({
   }
 });
 
-// node_modules/.pnpm/debug@4.3.4/node_modules/debug/src/browser.js
+// node_modules/.pnpm/socket.io@4.7.3/node_modules/debug/src/browser.js
 var require_browser = __commonJS({
-  "node_modules/.pnpm/debug@4.3.4/node_modules/debug/src/browser.js"(exports2, module2) {
+  "node_modules/.pnpm/socket.io@4.7.3/node_modules/debug/src/browser.js"(exports2, module2) {
     exports2.formatArgs = formatArgs;
     exports2.save = save;
     exports2.load = load;
@@ -10616,9 +10616,9 @@ var require_supports_color = __commonJS({
   }
 });
 
-// node_modules/.pnpm/debug@4.3.4/node_modules/debug/src/node.js
+// node_modules/.pnpm/socket.io@4.7.3/node_modules/debug/src/node.js
 var require_node = __commonJS({
-  "node_modules/.pnpm/debug@4.3.4/node_modules/debug/src/node.js"(exports2, module2) {
+  "node_modules/.pnpm/socket.io@4.7.3/node_modules/debug/src/node.js"(exports2, module2) {
     var tty = require("tty");
     var util = require("util");
     exports2.init = init;
@@ -10790,9 +10790,9 @@ var require_node = __commonJS({
   }
 });
 
-// node_modules/.pnpm/debug@4.3.4/node_modules/debug/src/index.js
+// node_modules/.pnpm/socket.io@4.7.3/node_modules/debug/src/index.js
 var require_src = __commonJS({
-  "node_modules/.pnpm/debug@4.3.4/node_modules/debug/src/index.js"(exports2, module2) {
+  "node_modules/.pnpm/socket.io@4.7.3/node_modules/debug/src/index.js"(exports2, module2) {
     if (typeof process === "undefined" || process.type === "renderer" || process.browser === true || process.__nwjs) {
       module2.exports = require_browser();
     } else {
@@ -10801,9 +10801,9 @@ var require_src = __commonJS({
   }
 });
 
-// node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/transport.js
+// node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/transport.js
 var require_transport = __commonJS({
-  "node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/transport.js"(exports2) {
+  "node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/transport.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.Transport = void 0;
@@ -10915,9 +10915,9 @@ var require_transport = __commonJS({
   }
 });
 
-// node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/transports/polling.js
+// node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/transports/polling.js
 var require_polling = __commonJS({
-  "node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/transports/polling.js"(exports2) {
+  "node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/transports/polling.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.Polling = void 0;
@@ -11244,9 +11244,9 @@ var require_polling = __commonJS({
   }
 });
 
-// node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/transports/polling-jsonp.js
+// node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/transports/polling-jsonp.js
 var require_polling_jsonp = __commonJS({
-  "node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/transports/polling-jsonp.js"(exports2) {
+  "node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/transports/polling-jsonp.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.JSONP = void 0;
@@ -11295,9 +11295,9 @@ var require_polling_jsonp = __commonJS({
   }
 });
 
-// node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/transports/websocket.js
+// node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/transports/websocket.js
 var require_websocket = __commonJS({
-  "node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/transports/websocket.js"(exports2) {
+  "node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/transports/websocket.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.WebSocket = void 0;
@@ -11414,9 +11414,9 @@ var require_websocket = __commonJS({
   }
 });
 
-// node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/transports/webtransport.js
+// node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/transports/webtransport.js
 var require_webtransport = __commonJS({
-  "node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/transports/webtransport.js"(exports2) {
+  "node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/transports/webtransport.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.WebTransport = void 0;
@@ -11480,9 +11480,9 @@ var require_webtransport = __commonJS({
   }
 });
 
-// node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/transports/index.js
+// node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/transports/index.js
 var require_transports = __commonJS({
-  "node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/transports/index.js"(exports2) {
+  "node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/transports/index.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var polling_1 = require_polling();
@@ -11505,9 +11505,9 @@ var require_transports = __commonJS({
   }
 });
 
-// node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/socket.js
+// node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/socket.js
 var require_socket = __commonJS({
-  "node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/socket.js"(exports2) {
+  "node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/socket.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.Socket = void 0;
@@ -11956,9 +11956,9 @@ var require_socket = __commonJS({
   }
 });
 
-// node_modules/.pnpm/cookie@0.4.2/node_modules/cookie/index.js
+// node_modules/.pnpm/node_modules/cookie/index.js
 var require_cookie = __commonJS({
-  "node_modules/.pnpm/cookie@0.4.2/node_modules/cookie/index.js"(exports2) {
+  "node_modules/.pnpm/node_modules/cookie/index.js"(exports2) {
     "use strict";
     exports2.parse = parse;
     exports2.serialize = serialize;
@@ -12066,9 +12066,9 @@ var require_cookie = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ws@8.11.0/node_modules/ws/lib/constants.js
+// node_modules/.pnpm/node_modules/ws/lib/constants.js
 var require_constants = __commonJS({
-  "node_modules/.pnpm/ws@8.11.0/node_modules/ws/lib/constants.js"(exports2, module2) {
+  "node_modules/.pnpm/node_modules/ws/lib/constants.js"(exports2, module2) {
     "use strict";
     module2.exports = {
       BINARY_TYPES: ["nodebuffer", "arraybuffer", "fragments"],
@@ -12084,9 +12084,9 @@ var require_constants = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ws@8.11.0/node_modules/ws/lib/buffer-util.js
+// node_modules/.pnpm/node_modules/ws/lib/buffer-util.js
 var require_buffer_util = __commonJS({
-  "node_modules/.pnpm/ws@8.11.0/node_modules/ws/lib/buffer-util.js"(exports2, module2) {
+  "node_modules/.pnpm/node_modules/ws/lib/buffer-util.js"(exports2, module2) {
     "use strict";
     var { EMPTY_BUFFER } = require_constants();
     function concat(list, totalLength) {
@@ -12164,9 +12164,9 @@ var require_buffer_util = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ws@8.11.0/node_modules/ws/lib/limiter.js
+// node_modules/.pnpm/node_modules/ws/lib/limiter.js
 var require_limiter = __commonJS({
-  "node_modules/.pnpm/ws@8.11.0/node_modules/ws/lib/limiter.js"(exports2, module2) {
+  "node_modules/.pnpm/node_modules/ws/lib/limiter.js"(exports2, module2) {
     "use strict";
     var kDone = Symbol("kDone");
     var kRun = Symbol("kRun");
@@ -12215,9 +12215,9 @@ var require_limiter = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ws@8.11.0/node_modules/ws/lib/permessage-deflate.js
+// node_modules/.pnpm/node_modules/ws/lib/permessage-deflate.js
 var require_permessage_deflate = __commonJS({
-  "node_modules/.pnpm/ws@8.11.0/node_modules/ws/lib/permessage-deflate.js"(exports2, module2) {
+  "node_modules/.pnpm/node_modules/ws/lib/permessage-deflate.js"(exports2, module2) {
     "use strict";
     var zlib = require("zlib");
     var bufferUtil = require_buffer_util();
@@ -12593,9 +12593,9 @@ var require_permessage_deflate = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ws@8.11.0/node_modules/ws/lib/validation.js
+// node_modules/.pnpm/node_modules/ws/lib/validation.js
 var require_validation = __commonJS({
-  "node_modules/.pnpm/ws@8.11.0/node_modules/ws/lib/validation.js"(exports2, module2) {
+  "node_modules/.pnpm/node_modules/ws/lib/validation.js"(exports2, module2) {
     "use strict";
     var tokenChars = [
       0,
@@ -12784,9 +12784,9 @@ var require_validation = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ws@8.11.0/node_modules/ws/lib/receiver.js
+// node_modules/.pnpm/node_modules/ws/lib/receiver.js
 var require_receiver = __commonJS({
-  "node_modules/.pnpm/ws@8.11.0/node_modules/ws/lib/receiver.js"(exports2, module2) {
+  "node_modules/.pnpm/node_modules/ws/lib/receiver.js"(exports2, module2) {
     "use strict";
     var { Writable } = require("stream");
     var PerMessageDeflate = require_permessage_deflate();
@@ -13311,9 +13311,9 @@ var require_receiver = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ws@8.11.0/node_modules/ws/lib/sender.js
+// node_modules/.pnpm/node_modules/ws/lib/sender.js
 var require_sender = __commonJS({
-  "node_modules/.pnpm/ws@8.11.0/node_modules/ws/lib/sender.js"(exports2, module2) {
+  "node_modules/.pnpm/node_modules/ws/lib/sender.js"(exports2, module2) {
     "use strict";
     var net = require("net");
     var tls = require("tls");
@@ -13723,9 +13723,9 @@ var require_sender = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ws@8.11.0/node_modules/ws/lib/event-target.js
+// node_modules/.pnpm/node_modules/ws/lib/event-target.js
 var require_event_target = __commonJS({
-  "node_modules/.pnpm/ws@8.11.0/node_modules/ws/lib/event-target.js"(exports2, module2) {
+  "node_modules/.pnpm/node_modules/ws/lib/event-target.js"(exports2, module2) {
     "use strict";
     var { kForOnEventAttribute, kListener } = require_constants();
     var kCode = Symbol("kCode");
@@ -13952,9 +13952,9 @@ var require_event_target = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ws@8.11.0/node_modules/ws/lib/extension.js
+// node_modules/.pnpm/node_modules/ws/lib/extension.js
 var require_extension = __commonJS({
-  "node_modules/.pnpm/ws@8.11.0/node_modules/ws/lib/extension.js"(exports2, module2) {
+  "node_modules/.pnpm/node_modules/ws/lib/extension.js"(exports2, module2) {
     "use strict";
     var { tokenChars } = require_validation();
     function push(dest, name, elem) {
@@ -14122,9 +14122,9 @@ var require_extension = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ws@8.11.0/node_modules/ws/lib/websocket.js
+// node_modules/.pnpm/node_modules/ws/lib/websocket.js
 var require_websocket2 = __commonJS({
-  "node_modules/.pnpm/ws@8.11.0/node_modules/ws/lib/websocket.js"(exports2, module2) {
+  "node_modules/.pnpm/node_modules/ws/lib/websocket.js"(exports2, module2) {
     "use strict";
     var EventEmitter = require("events");
     var https = require("https");
@@ -14988,9 +14988,9 @@ var require_websocket2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ws@8.11.0/node_modules/ws/lib/stream.js
+// node_modules/.pnpm/node_modules/ws/lib/stream.js
 var require_stream = __commonJS({
-  "node_modules/.pnpm/ws@8.11.0/node_modules/ws/lib/stream.js"(exports2, module2) {
+  "node_modules/.pnpm/node_modules/ws/lib/stream.js"(exports2, module2) {
     "use strict";
     var { Duplex } = require("stream");
     function emitClose(stream) {
@@ -15093,9 +15093,9 @@ var require_stream = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ws@8.11.0/node_modules/ws/lib/subprotocol.js
+// node_modules/.pnpm/node_modules/ws/lib/subprotocol.js
 var require_subprotocol = __commonJS({
-  "node_modules/.pnpm/ws@8.11.0/node_modules/ws/lib/subprotocol.js"(exports2, module2) {
+  "node_modules/.pnpm/node_modules/ws/lib/subprotocol.js"(exports2, module2) {
     "use strict";
     var { tokenChars } = require_validation();
     function parse(header) {
@@ -15141,9 +15141,9 @@ var require_subprotocol = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ws@8.11.0/node_modules/ws/lib/websocket-server.js
+// node_modules/.pnpm/node_modules/ws/lib/websocket-server.js
 var require_websocket_server = __commonJS({
-  "node_modules/.pnpm/ws@8.11.0/node_modules/ws/lib/websocket-server.js"(exports2, module2) {
+  "node_modules/.pnpm/node_modules/ws/lib/websocket-server.js"(exports2, module2) {
     "use strict";
     var EventEmitter = require("events");
     var http = require("http");
@@ -15532,9 +15532,9 @@ var require_websocket_server = __commonJS({
   }
 });
 
-// node_modules/.pnpm/ws@8.11.0/node_modules/ws/index.js
+// node_modules/.pnpm/node_modules/ws/index.js
 var require_ws = __commonJS({
-  "node_modules/.pnpm/ws@8.11.0/node_modules/ws/index.js"(exports2, module2) {
+  "node_modules/.pnpm/node_modules/ws/index.js"(exports2, module2) {
     "use strict";
     var WebSocket = require_websocket2();
     WebSocket.createWebSocketStream = require_stream();
@@ -15547,9 +15547,9 @@ var require_ws = __commonJS({
   }
 });
 
-// node_modules/.pnpm/object-assign@4.1.1/node_modules/object-assign/index.js
+// node_modules/.pnpm/node_modules/object-assign/index.js
 var require_object_assign = __commonJS({
-  "node_modules/.pnpm/object-assign@4.1.1/node_modules/object-assign/index.js"(exports2, module2) {
+  "node_modules/.pnpm/node_modules/object-assign/index.js"(exports2, module2) {
     "use strict";
     var getOwnPropertySymbols = Object.getOwnPropertySymbols;
     var hasOwnProperty = Object.prototype.hasOwnProperty;
@@ -15617,9 +15617,9 @@ var require_object_assign = __commonJS({
   }
 });
 
-// node_modules/.pnpm/vary@1.1.2/node_modules/vary/index.js
+// node_modules/.pnpm/node_modules/vary/index.js
 var require_vary = __commonJS({
-  "node_modules/.pnpm/vary@1.1.2/node_modules/vary/index.js"(exports2, module2) {
+  "node_modules/.pnpm/node_modules/vary/index.js"(exports2, module2) {
     "use strict";
     module2.exports = vary;
     module2.exports.append = append;
@@ -15690,9 +15690,9 @@ var require_vary = __commonJS({
   }
 });
 
-// node_modules/.pnpm/cors@2.8.5/node_modules/cors/lib/index.js
+// node_modules/.pnpm/socket.io@4.7.3/node_modules/cors/lib/index.js
 var require_lib = __commonJS({
-  "node_modules/.pnpm/cors@2.8.5/node_modules/cors/lib/index.js"(exports2, module2) {
+  "node_modules/.pnpm/socket.io@4.7.3/node_modules/cors/lib/index.js"(exports2, module2) {
     (function() {
       "use strict";
       var assign = require_object_assign();
@@ -15898,9 +15898,9 @@ var require_lib = __commonJS({
   }
 });
 
-// node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/server.js
+// node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/server.js
 var require_server = __commonJS({
-  "node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/server.js"(exports2) {
+  "node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/server.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.Server = exports2.BaseServer = void 0;
@@ -16842,9 +16842,9 @@ var require_server = __commonJS({
   }
 });
 
-// node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/transports-uws/polling.js
+// node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/transports-uws/polling.js
 var require_polling2 = __commonJS({
-  "node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/transports-uws/polling.js"(exports2) {
+  "node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/transports-uws/polling.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.Polling = void 0;
@@ -17198,9 +17198,9 @@ var require_polling2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/transports-uws/websocket.js
+// node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/transports-uws/websocket.js
 var require_websocket3 = __commonJS({
-  "node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/transports-uws/websocket.js"(exports2) {
+  "node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/transports-uws/websocket.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.WebSocket = void 0;
@@ -17286,9 +17286,9 @@ var require_websocket3 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/transports-uws/index.js
+// node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/transports-uws/index.js
 var require_transports_uws = __commonJS({
-  "node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/transports-uws/index.js"(exports2) {
+  "node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/transports-uws/index.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var polling_1 = require_polling2();
@@ -17300,9 +17300,9 @@ var require_transports_uws = __commonJS({
   }
 });
 
-// node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/userver.js
+// node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/userver.js
 var require_userver = __commonJS({
-  "node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/userver.js"(exports2) {
+  "node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/userver.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.uServer = void 0;
@@ -17558,9 +17558,9 @@ var require_userver = __commonJS({
   }
 });
 
-// node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/engine.io.js
+// node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/engine.io.js
 var require_engine_io = __commonJS({
-  "node_modules/.pnpm/engine.io@6.5.4/node_modules/engine.io/build/engine.io.js"(exports2) {
+  "node_modules/.pnpm/socket.io@4.7.3/node_modules/engine.io/build/engine.io.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.protocol = exports2.Transport = exports2.Socket = exports2.uServer = exports2.parser = exports2.attach = exports2.listen = exports2.transports = exports2.Server = void 0;
@@ -17610,9 +17610,9 @@ var require_engine_io = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@socket.io+component-emitter@3.1.0/node_modules/@socket.io/component-emitter/index.js
+// node_modules/.pnpm/node_modules/@socket.io/component-emitter/index.js
 var require_component_emitter = __commonJS({
-  "node_modules/.pnpm/@socket.io+component-emitter@3.1.0/node_modules/@socket.io/component-emitter/index.js"(exports2) {
+  "node_modules/.pnpm/node_modules/@socket.io/component-emitter/index.js"(exports2) {
     exports2.Emitter = Emitter;
     function Emitter(obj) {
       if (obj)
@@ -17689,9 +17689,9 @@ var require_component_emitter = __commonJS({
   }
 });
 
-// node_modules/.pnpm/socket.io-parser@4.2.4/node_modules/socket.io-parser/build/cjs/is-binary.js
+// node_modules/.pnpm/socket.io@4.7.3/node_modules/socket.io-parser/build/cjs/is-binary.js
 var require_is_binary = __commonJS({
-  "node_modules/.pnpm/socket.io-parser@4.2.4/node_modules/socket.io-parser/build/cjs/is-binary.js"(exports2) {
+  "node_modules/.pnpm/socket.io@4.7.3/node_modules/socket.io-parser/build/cjs/is-binary.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.hasBinary = exports2.isBinary = void 0;
@@ -17735,9 +17735,9 @@ var require_is_binary = __commonJS({
   }
 });
 
-// node_modules/.pnpm/socket.io-parser@4.2.4/node_modules/socket.io-parser/build/cjs/binary.js
+// node_modules/.pnpm/socket.io@4.7.3/node_modules/socket.io-parser/build/cjs/binary.js
 var require_binary = __commonJS({
-  "node_modules/.pnpm/socket.io-parser@4.2.4/node_modules/socket.io-parser/build/cjs/binary.js"(exports2) {
+  "node_modules/.pnpm/socket.io@4.7.3/node_modules/socket.io-parser/build/cjs/binary.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.reconstructPacket = exports2.deconstructPacket = void 0;
@@ -17807,9 +17807,9 @@ var require_binary = __commonJS({
   }
 });
 
-// node_modules/.pnpm/socket.io-parser@4.2.4/node_modules/socket.io-parser/build/cjs/index.js
+// node_modules/.pnpm/socket.io@4.7.3/node_modules/socket.io-parser/build/cjs/index.js
 var require_cjs2 = __commonJS({
-  "node_modules/.pnpm/socket.io-parser@4.2.4/node_modules/socket.io-parser/build/cjs/index.js"(exports2) {
+  "node_modules/.pnpm/socket.io@4.7.3/node_modules/socket.io-parser/build/cjs/index.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.Decoder = exports2.Encoder = exports2.PacketType = exports2.protocol = void 0;
@@ -20329,9 +20329,9 @@ var require_parent_namespace = __commonJS({
   }
 });
 
-// node_modules/.pnpm/socket.io-adapter@2.5.2/node_modules/socket.io-adapter/dist/contrib/yeast.js
+// node_modules/.pnpm/socket.io@4.7.3/node_modules/socket.io-adapter/dist/contrib/yeast.js
 var require_yeast = __commonJS({
-  "node_modules/.pnpm/socket.io-adapter@2.5.2/node_modules/socket.io-adapter/dist/contrib/yeast.js"(exports2) {
+  "node_modules/.pnpm/socket.io@4.7.3/node_modules/socket.io-adapter/dist/contrib/yeast.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.yeast = exports2.decode = exports2.encode = void 0;
@@ -20370,9 +20370,9 @@ var require_yeast = __commonJS({
   }
 });
 
-// node_modules/.pnpm/socket.io-adapter@2.5.2/node_modules/socket.io-adapter/dist/index.js
+// node_modules/.pnpm/socket.io@4.7.3/node_modules/socket.io-adapter/dist/index.js
 var require_dist = __commonJS({
-  "node_modules/.pnpm/socket.io-adapter@2.5.2/node_modules/socket.io-adapter/dist/index.js"(exports2) {
+  "node_modules/.pnpm/socket.io@4.7.3/node_modules/socket.io-adapter/dist/index.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
