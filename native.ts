@@ -7,7 +7,7 @@
 import { User } from "discord-types/general";
 import { app, WebFrameMain } from "electron";
 import { createServer, Server as HttpServer } from "http";
-import { Server, Socket } from "socket.io";
+import { Server, Socket } from "./dependencies";
 
 let io: Server;
 let httpServer: HttpServer;
